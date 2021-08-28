@@ -93,9 +93,9 @@ class UltrafastLaneDetector():
 		# Scale input pixel values to -1 to 1
 		mean=[0.485, 0.456, 0.406]
 		std=[0.229, 0.224, 0.225]
-		reshape_img = img_input.reshape(1, self.input_height, self.input_width,3)
+
 		img_input = ((img_input/ 255.0 - mean) / std).astype(np.float32)
-		img_input = img_input[np.newaxis,:,:,:]        
+		img_input = img_input[np.newaxis,:,:,:]      
 
 		return img_input
 
@@ -127,8 +127,7 @@ class UltrafastLaneDetector():
 	def process_output(output, cfg):		
 
 		# Parse the output of the model to get the lane information
-		processed_output = output.transpose(2, 0, 1)
-		processed_output = processed_output[:, ::-1, :]
+		processed_output = output[:, ::-1, :]
 
 		prob = scipy.special.softmax(processed_output[:-1, :, :], axis=0)
 		idx = np.arange(cfg.griding_num) + 1
