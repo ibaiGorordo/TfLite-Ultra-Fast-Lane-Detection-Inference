@@ -4,6 +4,9 @@ Example scripts for the detection of lanes using the [ultra fast lane detection 
 ![!Ultra fast lane detection](https://github.com/ibaiGorordo/Ultrafast-Lane-Detection-Inference-Pytorch-/blob/main/doc/img/detected%20lanes.jpg)
 Source: https://www.flickr.com/photos/32413914@N00/1475776461/
 
+# IN PROGRESS
+The repository is still not completed since the output of the model is incorrect.
+
 # Requirements
 
  * **OpenCV**, **scipy** and **tensorflow/tflite_runtime**. **pafy** and **youtube-dl** are required for youtube video inference. 
