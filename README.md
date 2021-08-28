@@ -18,7 +18,7 @@ pip install pafy youtube-dl
 For the tflite runtime, you can either use tensorflow `pip install tensorflow` or the [TensorFlow Runtime](https://www.tensorflow.org/lite/guide/python)
 
 # tflite model
-The original model was converted to different formats (including .tflite) by [PINTO0309](https://github.com/PINTO0309), download the models from [his repository](https://github.com/PINTO0309/PINTO_model_zoo/tree/main/140_Ultra-Fast-Lane-Detection) and save it into the **[models](https://github.com/ibaiGorordo/TfLite-Ultra-Fast-Lane-Detection-Inference-/tree/main/models)** folder. 
+The original model was converted to different formats (including .tflite) by [PINTO0309](https://github.com/PINTO0309), download the models from [his repository](https://github.com/PINTO0309/PINTO_model_zoo/tree/main/140_Ultra-Fast-Lane-Detection) and save it into the **[models](https://github.com/ibaiGorordo/TfLite-Ultra-Fast-Lane-Detection-Inference/tree/main/models)** folder. 
 
 # Original Pytorch model
 The Pytorch pretrained model from the [original repository](https://github.com/cfzd/Ultra-Fast-Lane-Detection).
