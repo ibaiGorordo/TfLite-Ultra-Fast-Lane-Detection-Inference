@@ -4,6 +4,9 @@ Example scripts for the detection of lanes using the [ultra fast lane detection 
 ![!Ultra fast lane detection](https://github.com/ibaiGorordo/TfLite-Ultra-Fast-Lane-Detection-Inference/blob/main/doc/img/output.jpg)
 Source: https://www.flickr.com/photos/32413914@N00/1475776461/
 
+# Pytorch inference
+For performing the inference in Pytorch, check my other repository **[Ultrafast Lane Detection Inference Pytorch](https://github.com/ibaiGorordo/Ultrafast-Lane-Detection-Inference-Pytorch-)**.
+
 # IN PROGRESS
 The repository is still not completed since the output of the model is incorrect.
 
