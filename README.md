@@ -4,6 +4,9 @@ Example scripts for the detection of lanes using the [ultra fast lane detection 
 ![!Ultra fast lane detection](https://github.com/ibaiGorordo/Ultrafast-Lane-Detection-Inference-Pytorch-/blob/main/doc/img/detected%20lanes.jpg)
 Source: https://www.flickr.com/photos/32413914@N00/1475776461/
 
+# IN PROGRESS
+The repository is still not completed since the output of the model is incorrect.
+
 # Requirements
 
  * **OpenCV**, **scipy** and **tensorflow/tflite_runtime**. **pafy** and **youtube-dl** are required for youtube video inference. 
@@ -18,7 +21,7 @@ pip install pafy youtube-dl
 For the tflite runtime, you can either use tensorflow `pip install tensorflow` or the [TensorFlow Runtime](https://www.tensorflow.org/lite/guide/python)
 
 # tflite model
-The original model was converted to different formats (including .tflite) by [PINTO0309](https://github.com/PINTO0309), download the models from [his repository](https://github.com/PINTO0309/PINTO_model_zoo/tree/main/140_Ultra-Fast-Lane-Detection) and save it into the **[models](https://github.com/ibaiGorordo/TfLite-Ultra-Fast-Lane-Detection-Inference-/tree/main/models)** folder. 
+The original model was converted to different formats (including .tflite) by [PINTO0309](https://github.com/PINTO0309), download the models from [his repository](https://github.com/PINTO0309/PINTO_model_zoo/tree/main/140_Ultra-Fast-Lane-Detection) and save it into the **[models](https://github.com/ibaiGorordo/TfLite-Ultra-Fast-Lane-Detection-Inference/tree/main/models)** folder. 
 
 # Original Pytorch model
 The Pytorch pretrained model from the [original repository](https://github.com/cfzd/Ultra-Fast-Lane-Detection).
