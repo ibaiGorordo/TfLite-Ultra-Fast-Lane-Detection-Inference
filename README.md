@@ -1,7 +1,7 @@
 # TFlite Ultra Fast Lane Detection Inference
 Example scripts for the detection of lanes using the [ultra fast lane detection model](https://github.com/cfzd/Ultra-Fast-Lane-Detection) in Tensorflow Lite.
 
-![!Ultra fast lane detection](https://github.com/ibaiGorordo/Ultrafast-Lane-Detection-Inference-Pytorch-/blob/main/doc/img/detected%20lanes.jpg)
+![!Ultra fast lane detection](https://github.com/ibaiGorordo/TfLite-Ultra-Fast-Lane-Detection-Inference/blob/main/doc/img/output.jpg)
 Source: https://www.flickr.com/photos/32413914@N00/1475776461/
 
 # IN PROGRESS
