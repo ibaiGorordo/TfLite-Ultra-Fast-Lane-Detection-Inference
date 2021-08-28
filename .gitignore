@@ -4,6 +4,7 @@ __pycache__/
 *$py.class
 
 models/
+output.jpg
 
 # C extensions
 *.so
