@@ -1,14 +1,8 @@
 # TFlite Ultra Fast Lane Detection Inference
 Example scripts for the detection of lanes using the [ultra fast lane detection model](https://github.com/cfzd/Ultra-Fast-Lane-Detection) in Tensorflow Lite.
 
-![!Ultra fast lane detection](https://github.com/ibaiGorordo/TfLite-Ultra-Fast-Lane-Detection-Inference/blob/main/doc/img/output.jpg)
+![!Ultra fast lane detection](https://github.com/ibaiGorordo/TfLite-Ultra-Fast-Lane-Detection-Inference/blob/main/doc/img/detected_lanes.jpg)
 Source: https://www.flickr.com/photos/32413914@N00/1475776461/
-
-# Pytorch inference
-For performing the inference in Pytorch, check my other repository **[Ultrafast Lane Detection Inference Pytorch](https://github.com/ibaiGorordo/Ultrafast-Lane-Detection-Inference-Pytorch-)**.
-
-# IN PROGRESS
-The repository is still not completed since the output of the model is incorrect.
 
 # Requirements
 
@@ -53,6 +47,14 @@ The Pytorch pretrained model from the [original repository](https://github.com/c
  ```
  python videoLaneDetection.py
  ```
+
+# Pytorch inference
+For performing the inference in Pytorch, check my other repository **[Ultrafast Lane Detection Inference Pytorch](https://github.com/ibaiGorordo/Ultrafast-Lane-Detection-Inference-Pytorch-)**.
+
+# ONNX inference
+For performing the inference in ONNX, check my other repository **[ONNX Ultra Fast Lane Detection Inference](https://github.com/ibaiGorordo/onnx-Ultra-Fast-Lane-Detection-Inference)**.
+
+
  
  # [Inference video Example](https://youtu.be/0Owf6gef1Ew) 
  ![!Ultrafast lane detection on video](https://github.com/ibaiGorordo/Ultrafast-Lane-Detection-Inference-Pytorch-/blob/main/doc/img/laneDetection.gif)
